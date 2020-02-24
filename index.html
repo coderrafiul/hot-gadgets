@@ -10,21 +10,24 @@
 <body>
     
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
             <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-              <ul class="navbar-nav">
+            <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+              <ul class="navbar-nav" >
                 <li class="nav-item active">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#products">Products</a>
+                  <a class="nav-link" href="#smartphone">Smartphone</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About Us</a>
+                  <a class="nav-link" href="#laptop">Laptop</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#category">Other Products</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#contact">Contact Us</a>
@@ -34,7 +37,7 @@
           </nav>
     </div>
 
-    <div class="container carousel-bg">
+    <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,7 +99,7 @@
     </div>
 
     <div class="container" id="smartphone">
-      <div class="heading d-flex justify-content-between">
+      <div class="d-flex justify-content-between">
         <h2>Smartphone</h2>
         <h4 class="see">See All</h4>
       </div>  
@@ -108,7 +111,7 @@
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam iure nulla quasi autem error natus.</p>
               </div>  
                 <div class="card-footer">
-                    <h2>$349</h2>
+                    <h3>$349</h3>
                     <button class="buy-now-button">Buy Now</button>
 
                 </div>
@@ -123,7 +126,7 @@
               </div> 
                 
                 <div class="card-footer">
-                    <h2>$899</h2>
+                    <h3>$899</h3>
                     <button class="buy-now-button">Buy Now</button>
 
                 </div>
@@ -133,11 +136,11 @@
               <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Samsung Galaxy Note 10+</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sit earum? Sapiente explicabo ea doloremque minima debitis itaque dolores pariatur vero unde corporis est suscipit voluptatibus, voluptatum laboriosam veniam voluptatem.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sit earum? Sapiente explicabo ea doloremque minima debitis itaque dolores pariatur.</p>
                 
               </div>  
                 <div class="card-footer">
-                    <h2>$749</h2>
+                    <h3>$749</h3>
                     <button class="buy-now-button">Buy Now</button>
 
                 </div>
@@ -147,11 +150,12 @@
     </div>
 
     <div class="container" id="laptop">
-
-        <div class="heading d-flex justify-content-between">
+    
+        <div class="row d-flex flex-row justify-content-between">
           <h2>Laptop</h2>
           <h4 class="see">See All</h4>
         </div>
+
         <div class="card-deck">
             <div class="card">
               <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
@@ -160,7 +164,7 @@
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis laboriosam esse saepe porro quibusdam repudiandae vitae, illum sed consectetur doloremque nesciunt dolores ex exercitationem et!</p>
               </div>  
                 <div class="card-footer">
-                    <h2>$349</h2>
+                    <h3>$349</h3>
                     <button class="buy-now-button">Buy Now</button>
 
                 </div>
@@ -175,7 +179,7 @@
               </div>  
                 
                 <div class="card-footer">
-                    <h2>$899</h2>
+                    <h3>$899</h3>
                     <button class="buy-now-button">Buy Now</button>
 
                 </div>
@@ -189,7 +193,7 @@
               </div>  
                 
                 <div class="card-footer">
-                    <h2>$749</h2>
+                    <h3>$749</h3>
                     <button class="buy-now-button">Buy Now</button>
 
                 </div>
@@ -198,11 +202,15 @@
           </div>
     </div>
 
-    <div class="container jhamela">
+    <div class="container jhamela" id="category">
         
         <h2 class="category">Categories</h2>
+
+        <div class="col-md-6">
+          
+        </div>
         <div class="row">
-          <div class="col-md-3 d-flex align-items-center">
+          <div class="col-sm-3 d-flex align-items-center">
             <div class="cat1">
               <img src="images/Categories/bag.png" alt=""><br>
               <h5>Bag</h5>
@@ -210,7 +218,7 @@
             
           </div>
 
-          <div class="col-md-3 d-flex align-items-center ">
+          <div class="col-sm-3 d-flex align-items-center ">
             
             <div class="d-flex flex-column">
               <div class="row">
@@ -232,25 +240,50 @@
             
           </div>
 
-          <div class="col-md-6 cat4">
+          <div class="col-sm-6 cat4">
             <img src="images/Categories/pale-order.png" alt="">
           </div>
         </div>
              
     </div>
 
-    <div id="contact" class="d-flex justify-content-center align-items-center">
-      <div>
-        <h3>LEAVE US A MESSAGE</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quis!</p>
-      <input class="form-control" type="text">
-      <button>SUBMIT</button>
+    <div class="container">
+      <div id="contact" class="d-flex justify-content-center align-items-center">
+        <div>
+          <h6>LEAVE US A MESSAGE</h6>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quis!</p>
+        <input class="form-control" type="text">
+        <button class="buy-now-button">SUBMIT</button>
+        </div>
       </div>
     </div>
 
     <div class="container">
-      
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Get Update Everytime On</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Facebook</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Twitter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RingID</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
     </div>
+
+    <footer>
+      <p>©Hot Gadgets 2021. Allright reserved. Rafiul-razib</p>
+    </footer>
 
     
     
