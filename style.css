@@ -8,8 +8,64 @@
     background-position: center;
 }
 
+.carousel-indicators li{
+    border: none;
+    background-color: #CECECE;
+    width: 15px;
+    height: 10px;
+    border-radius: 10px;
+   
+}
+
+.carousel-indicators li.active{
+    width: 30px;
+    background: linear-gradient(140deg, #FF9C35 0%, #FFD019 100%);
+    border-radius: 20px;
+}
+
+
 .card{
     border: none;
     box-shadow: 5px 5px 10px lightgray;
     border-radius: 10px;
+}
+
+.buy-now-button{
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.see{
+    color: coral;
+}
+
+.cat1, .cat2, .cat3{
+    text-align: center;
+    box-shadow: 5px 5px 10px lightgrey;
+    padding: 30px 20px;
+    height: 50%;
+    width: auto;
+}
+
+.cat4 img{
+    width: 100%;
+}
+
+.category{
+    margin-top: 100px;
+    text-align: center;
+   
+}
+.category::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 100px;
+    border-radius: 2px;
+    background: linear-gradient(140deg, #FF9C35 0%, #FFD019 100%);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
 }
