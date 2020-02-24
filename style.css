@@ -41,7 +41,13 @@
     color: coral;
 }
 
-.cat1, .cat2, .cat3{
+.cat1{box-shadow: 5px 5px 10px lightgrey;
+    padding: 30px 20px;
+    height: 100%;
+    width: auto;}
+
+
+.cat2, .cat3{
     text-align: center;
     box-shadow: 5px 5px 10px lightgrey;
     padding: 30px 20px;
@@ -52,6 +58,8 @@
 .cat4 img{
     width: 100%;
 }
+
+.develop{height: 400px;}
 
 .category{
     margin-top: 100px;
