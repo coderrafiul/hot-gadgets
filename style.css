@@ -1,5 +1,8 @@
+
+
 .container{
     margin-bottom: 50px;
+   
 }
 
 .carousel-bg{
@@ -30,6 +33,11 @@
     border-radius: 10px;
 }
 
+.card-footer{
+    background-color: lightgray;
+    border-top: none;
+}
+
 .buy-now-button{
     color: white;
     background-color: black;
@@ -37,29 +45,37 @@
     border-radius: 10px;
 }
 
+.buy-now-button:hover{
+    background-color: green;
+}
+
 .see{
     color: coral;
 }
 
-.cat1{box-shadow: 5px 5px 10px lightgrey;
-    padding: 30px 20px;
-    height: 100%;
-    width: auto;}
 
-
-.cat2, .cat3{
+.cat1, .cat2, .cat3{
     text-align: center;
     box-shadow: 5px 5px 10px lightgrey;
-    padding: 30px 20px;
-    height: 50%;
-    width: auto;
+    padding: 10px 20px;
+    margin: 0 auto;
+
 }
+
+.cat1{
+    margin-right: 0;
+}
+
+.cat2, .cat3{
+    margin: 10px;
+}
+
 
 .cat4 img{
     width: 100%;
 }
 
-.develop{height: 400px;}
+.Jhamela{height: 500px;}
 
 .category{
     margin-top: 100px;
@@ -75,5 +91,10 @@
     background: linear-gradient(140deg, #FF9C35 0%, #FFD019 100%);
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+#contact{
+    height: 200px;
+    background-color: lightskyblue;
 }
